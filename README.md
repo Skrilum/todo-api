@@ -160,7 +160,9 @@ DELETE /api/tasks/{id}
 
 ## Тестирование
 Для тестирования **API** используйте **Postman**, curl или аналогичные инструменты. Не забудьте добавить заголовоки:
+
 Accept: application/json
+
 Content-Type: application/json
 
 ## Тестовые данные
