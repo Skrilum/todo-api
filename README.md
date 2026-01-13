@@ -1,4 +1,4 @@
-# TODO API - Тестовое задание для Junior PHP Developer
+# TODO API
 
 Простое REST API для управления задачами, реализованное на Laravel 11.
 
@@ -79,11 +79,11 @@ Content-Type: application/json
 
 **Поля:**
 
-*title (обязательный, строка, min:1, max:255)
+title (обязательный, строка, min:1, max:255)
 
-*description (необязательный, строка)
+description (необязательный, строка)
 
-*status (обязательный: pending, in_progress, completed)
+status (обязательный: pending, in_progress, completed)
 
 **Пример ответа (201 Created):**
 
@@ -117,7 +117,7 @@ GET /api/tasks/{id}
 
 **Ошибки:**
 
-*404 если задача не найдена
+404 если задача не найдена
 
 ### 4. Обновить задачу
 
@@ -133,11 +133,11 @@ Content-Type: application/json
 
 **Поля (все необязательные для частичного обновления):**
 
-*title (строка, min:1, max:255)
+title (строка, min:1, max:255)
 
-*description (строка)
+description (строка)
 
-*status (pending, in_progress, completed)
+status (pending, in_progress, completed)
 
 ### 5. Удалить задачу
 
@@ -167,8 +167,8 @@ Content-Type: application/json
 
 Примеры валидных статусов:
 
-*pending
+pending
 
-*in_progress
+in_progress
 
-*completed
+completed
